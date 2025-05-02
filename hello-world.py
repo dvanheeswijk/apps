@@ -1,2 +1,2 @@
-pip install streamlit
+pip3 install streamlit
 streamlit hello
