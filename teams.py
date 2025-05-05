@@ -1,11 +1,11 @@
 import streamlit
 import pandas as pd
 import numpy as np
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 
-# load_dotenv()
+load_dotenv()
 
-TEAMS_URL = ${{ secrets.TEAMS_URL}}
+TEAMS_URL = os.getenv("TEAMS_URL")
 
 print("Hello, world!")
