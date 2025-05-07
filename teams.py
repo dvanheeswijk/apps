@@ -26,6 +26,9 @@ def send_alert_to_teams(message, webhook_url):
 
 message = "This is a test of streamlit with webhook."
 
-send_alert_to_teams(message, TEAMS_URL)
+i = 0
+if i<1:
+  send_alert_to_teams(message, TEAMS_URL)
+  i++
 
 print(message)
