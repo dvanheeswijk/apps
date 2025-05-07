@@ -8,9 +8,6 @@ load_dotenv()
 
 TEAMS_URL = os.getenv("TEAMS_URL")
 
-streamlit.write("""
-# My first app
-Hello world!
-""")
+streamlit.write(TEAMS_URL)
 
 print(streamlit)
