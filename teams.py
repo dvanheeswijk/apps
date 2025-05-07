@@ -12,7 +12,8 @@ load_dotenv()
 TEAMS_URL = os.getenv("TEAMS_URL")
 
 def send_alert_to_teams(message, webhook_url):
-  loop = asyncio.get_event_loop()
+  loop = asyncio.new_event_loop()
+  asyncio.set_event_loop(loop)
   # Instantiate the connector card object
   # teams_message = pymsteams.connectorcard(webhook_url)
   # the async_connectorcard object is used instead of the normal one.
