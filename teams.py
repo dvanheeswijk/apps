@@ -17,7 +17,7 @@ def send_alert_to_teams(message, webhook_url):
   teams_message.text(message)
   # Publish the message to the MS Teams channel
   teams_message.send()
-  break
+  return 0
 
 # message = st.write('''
 # #Test
