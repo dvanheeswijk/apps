@@ -6,6 +6,7 @@ import os
 import pymsteams
 import asyncio
 import requests
+import httpx
 
 load_dotenv()
 
