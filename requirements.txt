@@ -5,3 +5,4 @@ dotenv
 pymsteams
 requests
 asyncio
+httpx
