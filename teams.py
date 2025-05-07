@@ -8,9 +8,9 @@ load_dotenv()
 
 TEAMS_URL = os.getenv("TEAMS_URL")
 
-st.write("""
+streamlit.write("""
 # My first app
 Hello world!
 """)
 
-print(st)
+print(streamlit)
