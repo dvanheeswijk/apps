@@ -17,18 +17,17 @@ def send_alert_to_teams(message, webhook_url):
   teams_message.text(message)
   # Publish the message to the MS Teams channel
   teams_message.send()
-  return 0
 
-# message = st.write('''
-# #Test
-# This is testing the streamlit webhook using a url in github secrets.
-# ''')
+message = st.write('''
+#Test
+This is testing the streamlit webhook using a url in github secrets.
+''', str)
 
-message = "This is a test of streamlit with webhook."
+# message = "This is a test of streamlit with webhook."
 
-i = 0
-if i<1:
-  send_alert_to_teams(message, TEAMS_URL)
-  i=i+1
+# i = 0
+# if i<1:
+#   send_alert_to_teams(message, TEAMS_URL)
+#   i=i+1
 
 print(message)
