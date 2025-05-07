@@ -30,7 +30,7 @@ New Message.
 """)
 
 
-send_alert_to_teams(st, TEAMS_URL)
+# send_alert_to_teams(st, TEAMS_URL)
 
 
-print("Done!")
+print(type(st))
