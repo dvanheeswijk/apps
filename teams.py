@@ -29,6 +29,6 @@ message = "This is a test of streamlit with webhook."
 i = 0
 if i<1:
   send_alert_to_teams(message, TEAMS_URL)
-  i++
+  i=i+1
 
 print(message)
