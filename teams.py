@@ -4,6 +4,7 @@ import numpy as np
 from dotenv import load_dotenv
 import os
 import pymsteams
+import requests
 
 load_dotenv()
 
